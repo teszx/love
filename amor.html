@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Namoro</title>
+  <link rel="stylesheet" href="bb.css">
+</head>
+<body>
+  <div class="container">
+    <div class="progress-container">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+
+    <div id="message1" class="message">
+      <h1>Estava pensando em como nunca oficializamos o nosso relacionamento</h1>
+      <div class="heart-stage">
+        <img src="fotos/1.gif" alt="Coração pixelado" class="pixel-heart" width="100">
+      </div>
+      <button onclick="nextStep()">Continuar</button>
+    </div>
+
+    <div id="message2" class="message hidden">
+      <h1>Então me veio uma ideia: por que não fazer o pedido da maneira correta?</h1>
+      <div class="heart-stage">
+        <img src="fotos/2.gif" alt="Coração pixelado pulsando" class="pixel-heart" width="120">
+      </div>
+      <button onclick="nextStep()">Continuar</button>
+    </div>
+
+    <div id="message3" class="message hidden">
+      <div class="text-content">
+        <p>Todos os momentos com você se tornam especiais, únicos, como se o tempo parasse só pra nós dois. Te encontrar foi uma dádiva divina, um presente que a vida me deu quando eu menos esperava.</p>
+        <p>Você me mostrou o que é o amor de verdade. Me ensinou que nem tudo precisa ser cinza, que a vida também pode ser colorida, intensa, e que amar é um vermelho ardente, que aquece o peito e ilumina até os dias mais nublados.</p>
+        <p>Dizer apenas que te amo nunca será o suficiente. Você me desperta, diariamente, milhares de sentimentos, e eu quero passar o restante da minha vida retribuindo tudo isso.</p>
+        <p>Quero te dar tudo de mim, sem reservas, sem medo. Oferecer cada parte da minha alma, cada gesto, cada silêncio compartilhado. Porque, desde a nossa primeira conversa, eu já sentia que havia algo diferente… como se, de alguma forma, o universo já soubesse que era pra ser nós. Corpo e alma, coração e destino, tudo em um só.</p>
+      </div>
+      <div class="heart-stage">
+        <img src="fotos/3.gif" alt="Coração pixelado brilhante" class="pixel-heart" width="150">
+      </div>
+      <button onclick="nextStep()">Continuar</button>
+    </div>
+
+    <div id="final-message" class="message hidden">
+      <h2>Então, Stefani, aceita namorar comigo?</h2>
+      <div class="heart-stage">
+        <img src="fotos/4.gif" alt="Coração pixelado animado" class="pixel-heart" width="180">
+      </div>
+      <div class="buttons">
+        <button id="sim" class="btn-yes">SIM!</button>
+        <button id="nao" class="btn-no">Não</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/hearts.js"></script>
+</body>
+</html>
